@@ -1,0 +1,48 @@
+
+/* Font changes */
+.FontTitle {
+  font-family: 'Lobster', cursive;
+  font-size: 62px;
+  text-decoration: underline;
+}
+
+.Fpersonalized {
+  font-family: 'Indie Flower', cursive;  
+  font-size: 26px;
+}
+
+/* Image background */
+.bg-image {
+  background: url("../images/mediting.jpg");
+  background-size: 100%;
+}
+
+/* Text on Image */
+.bg-text {
+  text-align: center;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  color: white;
+}
+
+/* Jumbotron effect */
+.jumbotron {
+  background-color: #ffb400;
+  opacity: 0.6;
+}
+
+h1:hover {
+  opacity: 0.8;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+

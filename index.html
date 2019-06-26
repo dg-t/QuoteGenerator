@@ -11,18 +11,59 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="quotes.js"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-image">
+
+    <!-- Jumbotron header -->
     <header class="jumbotron shadow">
-                <h1 class="text-center">Quote Generator</h1>
+        <h1 class="text-center FontTitle">Quote Generator</h1>
     </header>
+    <!-- end Jumbotron header -->
+
+    <div class="fluid-container">
+
+        <!-- start form -->
+        <form action="/action_page.php" class="bg-text">
+            <div class="form-group">
+                <label class="Fpersonalized">Which inspiration are you looking today?</label>
+                <div class="form-check mt-3 Fpersonalized">
+                    <label class="form-check-label mr-5" for="radio2">
+                        <input type="radio" class="form-check-input" name="optradio" value="option1">Work
+                    </label>
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="optradio" value="option2">Life
+                    </label>
+                </div>
+                <label class="mt-5 Fpersonalized">How many quotes for today?</label>
+                <select class="form-control w-25 mx-auto mt-3">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <div>
+                    <button type="submit" class="btn btn-primary mt-5 Fpersonalized">Submit</button>
+                </div>
+            </div>
+        </form>
+        <!-- end form -->
+
+    </div>
 
 
 
-
-
+    <!-- Footer -->
+    <footer class="page-footer footer">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
+            <a href="#"> Thomas@OpenClassRooms</a>
+        </div>
+    </footer>
+    <!-- end footer -->
 
 
 
