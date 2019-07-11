@@ -21,8 +21,8 @@
 .bg-text {
   text-align: center;
   position: absolute;
-  top: 250px;
-  left: 100px;
+  top: 30%;
+  left: 10%;
   color: white;
 }
 
@@ -30,6 +30,7 @@
 .jumbotron {
   background-color: #ffb400;
   opacity: 0.6;
+  height: 150px;
 }
 
 h1:hover {
