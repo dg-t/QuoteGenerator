@@ -14,7 +14,7 @@
 /* Image background */
 .bg-image {
   background: url("../images/mediting.jpg");
-  background-size: 100%;
+  background-size: auto;          
 }
 
 /* Text on Image */
@@ -24,6 +24,18 @@
   top: 30%;
   left: 10%;
   color: white;
+}
+
+.bg-quote {
+  text-align: center;
+  background-color: rgb(72, 72, 72);
+  color: white;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+
+.fontReduce {
+  font-size: 18px;
 }
 
 /* Jumbotron effect */
@@ -40,6 +52,8 @@ h1:hover {
 /* Footer */
 .footer {
   position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   left: 0;
   bottom: 0;
   width: 100%;
