@@ -39,3 +39,8 @@ var wellness = {
  }
  
  displayQuote();
+
+ function removeQuotes() {
+    window.location.reload();
+} 
+

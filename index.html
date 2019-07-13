@@ -22,7 +22,7 @@
     </header>
 
     <!-- Quote Generator -->
-    <div class="container bg-text row">
+    <div class="container bg-text row mb-5">
         <div class="col-md-5">
             <p>For which inspiration are you looking today?</p>
             <div class="fontReduce">
@@ -36,7 +36,8 @@
                 <p>How many quotes for today?</p>
                 <form>
                     <input name="quoteNumber" id="quoteNumber" type="number" min="1" max="5">
-                    <input type="button" onclick="displayQuote()" value="Submit">
+                    <input type="button" onclick="displayQuote()" value="See Quotes"><br>
+                    <button class ="mt-4" type="submit"  onclick="removeQuotes()">Refresh</button>
                 </form>
             </div>
         </div>
@@ -44,18 +45,20 @@
         <div class="col-md-6 col-md-offset-1 mt-3">
             <div>
                 <p>Your quote:</p>
+                <div class="animateQuote fadeInQuote">
                 <p class="bg-quote" id="diplay"></p>
+                </div>
             </div>
         </div>
 
     </div>
 
     <!-- Footer -->
-    <footer class="page-footer footer">
+    <footer class="page-footer footer mt-4">
 
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
-            <a href="#"> Thomas@OpenClassRooms</a>
+            <a href="https://github.com/dg-t"> Thomas@OpenClassRooms</a>
         </div>
     </footer>
 
