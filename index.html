@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <script src="js/quotes.js"></script>
 </head>
 
 <body class="bg-image Fpersonalized">
@@ -36,17 +37,16 @@
                 <p>How many quotes for today?</p>
                 <form>
                     <input name="quoteNumber" id="quoteNumber" type="number" min="1" max="5">
-                    <input type="button" onclick="displayQuote()" value="See Quotes"><br>
-                    <button class ="mt-4" type="submit"  onclick="removeQuotes()">Refresh</button>
+                    <input type="button" onclick="displayQuote(); return false" value="See Quotes"><br>
+                    <button class="mt-4" type="submit" onclick="removeQuotes()">Refresh</button>
                 </form>
             </div>
         </div>
 
-        <div class="col-md-6 col-md-offset-1 mt-3">
+        <div class="col-md-6 col-md-offset-1 mt-3 mb-4">
             <div>
-                <p>Your quote:</p>
-                <div class="animateQuote fadeInQuote">
-                <p class="bg-quote" id="diplay"></p>
+                <div>
+                    <p class="animateQuote fadeInQuote bg-quote" id="ShowQuote"></p>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="page-footer footer mt-4">
+    <footer class="page-footer footer mt-5">
 
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
@@ -62,7 +62,6 @@
         </div>
     </footer>
 
-    <script src="js/quotes.js"></script>
 
 </body>
 

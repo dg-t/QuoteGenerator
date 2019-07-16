@@ -1,20 +1,19 @@
-
 /* Font changes */
 .FontTitle {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: 62px;
   text-decoration: underline;
 }
 
 .Fpersonalized {
-  font-family: 'Indie Flower', cursive;  
+  font-family: "Indie Flower", cursive;
   font-size: 26px;
 }
 
 /* Image background */
 .bg-image {
   background: url("../images/mediting.jpg");
-  background-size: auto;          
+  background-size: auto;
 }
 
 /* Text on Image */
@@ -64,24 +63,31 @@ h1:hover {
 /* Animation quotes */
 .animateQuote {
   background-position: left top;
-  -webkit-animation-duration: 8s;
-  animation-duration: 8s;
+  -webkit-animation-duration: 12s;
+  animation-duration: 12s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .fadeInQuote {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
-
